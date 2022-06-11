@@ -30,7 +30,6 @@ h1 {
 }
 
 
-
 /* Navigation Bar */
 .navbar {
     padding-bottom: 4.5rem;
@@ -66,10 +65,29 @@ h1 {
 
 /* Features */
 #features {
-    padding: 7% 15%;
+    padding: 7% 12%;
     text-align: center;
 }
 
+h3 {
+    font-weight: bold;
+}
+
 .feature-box {
-    padding: 5%;
+    padding: 3%;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+
+.feature-icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+    color: #ff4c68;
+    transition-duration: 0.5s;
 }
